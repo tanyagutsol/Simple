@@ -124,6 +124,9 @@ header nav{
 .clearfix:after{
 	clear: both;
 	}
+	 .projects {
+	 	text-align: center;
+	 }
 
 .projects img {
 	width: 100%
@@ -176,12 +179,9 @@ header nav{
 
 .redbutton {
     width: 0 auto;
-    display: block;
     font-family: Teko, sans-serif;
     font-size: 20px;
-    color: #f63c3c;;
-    margin-left: 40%;
-    margin-right: 40%;
+    color: #f63c3c;
     text-transform: uppercase;
     font-weight: 400;
     text-align: center;
@@ -228,6 +228,7 @@ header nav{
 aside {
     background-color: #fafafa ;
     margin-top: 40px;
+    text-align: center;
 }
 
 aside div {
@@ -252,7 +253,9 @@ aside p {
 aside ul {
     display: block;
     max-width: 1180px;
+    width: 90%;
     margin-top: 40px;
+    margin: 40px auto 0;
 }
 
 aside i.fa {
@@ -266,7 +269,7 @@ aside i.fa {
 aside li {
     display: inline-block;
     height: 195px;
-    width:     270px;
+    width: 23%;
     color: white;
     background-color: #30282a ;
     text-transform: uppercase;
